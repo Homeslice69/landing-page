@@ -1,0 +1,83 @@
+body {
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    border-radius: 3px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1f2937;
+    margin: 0px;
+    padding: 8px;
+    width: 100%;
+}
+
+.head-logo {
+    display: flex;
+    justify-self: flex-start;
+    color: #f9faf8;
+    font-size: 24px;
+    margin-left: 16px;
+}
+
+.head-links {
+    justify-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 16px;
+    color: #e5e7eb;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 69px;
+}
+
+.welcome {
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.hero-welcome {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    justify-content: flex-start;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    border-radius: 25px;
+    display: inline-flex;
+    color: #f9faf8;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+a:link, a:visited {
+    color:#e5e7eb;
+    text-decoration: none;
+    
+}
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
