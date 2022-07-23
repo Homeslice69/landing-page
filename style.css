@@ -1,7 +1,11 @@
 body {
     min-height: 100vh;
+    max-width: 100%;
     margin: 0px;
     padding: 0px;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
 }
 
 img {
@@ -46,6 +50,7 @@ img {
     color: #e5e7eb;
     font-size: 18px;
     padding: 69px;
+    width: 100%;
 }
 
 .welcome {
@@ -60,6 +65,111 @@ img {
     justify-content: flex-start;
 }
 
+.content-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    flex-direction: column;
+    }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 30px;
+    width: 100%;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 75px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #3882f6;
+    border-radius: 2px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-right: 0px;
+}
+
+.quote {
+    display: flex;
+    max-width: 50%;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.bee {
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+    font-size: 20px;
+
+}
+
+.action {
+    display: inline-flex;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 150px;
+    border-radius: 5px;
+    
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+}
+
+.supply {
+font-size: 20px;
+font-weight: 900;
+color: white;
+margin-bottom: 0px;
+}
+
+.supplier {
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
 .sign-up {
     background-color: #3882f6;
     border-radius: 25px;
@@ -67,6 +177,7 @@ img {
     color: #f9faf8;
     padding: 8px;
     margin-top: 8px;
+    border-radius: 5px solid white;
 }
 
 a:link, a:visited {
