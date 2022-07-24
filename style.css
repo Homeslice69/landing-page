@@ -1,6 +1,6 @@
 body {
     min-height: 100vh;
-    max-width: 100%;
+    width: 100%;
     margin: 0px;
     padding: 0px;
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
@@ -17,8 +17,6 @@ img {
     flex-direction: row;
     justify-content: space-between;
     background-color: #1f2937;
-    margin: 0px;
-    padding: 8px;
     width: 100%;
 }
 
@@ -28,6 +26,7 @@ img {
     color: #f9faf8;
     font-size: 24px;
     margin-left: 16px;
+    padding: 16px;
 }
 
 .head-links {
@@ -50,7 +49,7 @@ img {
     color: #e5e7eb;
     font-size: 18px;
     padding: 69px;
-    width: 100%;
+    
 }
 
 .welcome {
@@ -120,11 +119,14 @@ img {
 }
 
 .bee {
-    display: flex;
-    flex-direction: row;
-    margin-left: 500px;
-    font-size: 20px;
+    display: flex;width: 100%;
 
+}
+
+.action-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .action {
