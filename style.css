@@ -38,7 +38,7 @@ img {
     align-items: center;
     margin-right: 16px;
     color: #e5e7eb;
-    gap: 10px;
+    gap: 20px;
     text-decoration: none;
 }
 
@@ -178,13 +178,17 @@ margin-bottom: 0px;
     margin-top: 5px;
 }
 
-.sign-up {
+.sign-up, .sign-up-call {
     background-color: #3882f6;
     border-radius: 25px;
     display: inline-flex;
     color: #f9faf8;
     padding: 8px;
     margin-top: 8px;
+}
+
+.sign-up-call {
+    border: 1px solid white;
 }
 
 a:link, a:visited {
